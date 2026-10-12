@@ -1,0 +1,15 @@
+{
+  "name": "codeplay-ai-backend",
+  "version": "1.0.0",
+  "description": "Secure code execution backend for CodePlay AI",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.9.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}

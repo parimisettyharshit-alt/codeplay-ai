@@ -14,7 +14,6 @@ const EXECUTION_TIMEOUT_MS = Number(process.env.EXECUTION_TIMEOUT_MS || 2500);
 const runtimeCatalog = {
   python: { label: 'Python', command: 'python3', fileExt: '.py', ready: true },
   javascript: { label: 'JavaScript', command: 'node', fileExt: '.js', ready: true },
-  typescript: { label: 'TypeScript', command: 'node', fileExt: '.ts', ready: false, note: 'Needs a TypeScript compiler installed in the runtime environment.' },
   bash: { label: 'Bash', command: 'bash', fileExt: '.sh', ready: true },
   html: { label: 'HTML', command: null, fileExt: '.html', ready: true, previewOnly: true },
   css: { label: 'CSS', command: null, fileExt: '.css', ready: true, previewOnly: true },
